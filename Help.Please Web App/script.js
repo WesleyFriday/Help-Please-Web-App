@@ -5,9 +5,7 @@ const tutorLogin = document.getElementById("tutorLogin")
 const calendar = document.getElementById("calendar")
 const appointmentInfo = document.getElementById("appointmentInfo")
 
-/* -------------------------
-STUDENT LOGIN
---------------------------*/
+/* Login */
 
 if(studentLogin){
 
@@ -34,9 +32,7 @@ document.getElementById("error").innerText = "Invalid Login"
 }
 
 
-/* -------------------------
-TUTOR LOGIN
---------------------------*/
+/* Tutor Login */
 
 if(tutorLogin){
 
@@ -53,9 +49,7 @@ window.location.href = "tutor-dashboard.html"
 }
 
 
-/* -------------------------
-CALENDAR GENERATION
---------------------------*/
+/* Calendar */
 
 if(calendar){
 
@@ -109,9 +103,7 @@ location.reload()
 }
 
 
-/* -------------------------
-TUTOR DASHBOARD
---------------------------*/
+/* Tustor Dashboard */
 
 if(appointmentInfo){
 
